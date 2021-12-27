@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>notepad</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main class="notepad">
+      <!-- update-area section -->
+      <nav class="navbar">
+        <div class="navbar-add">
+          <a class="add-note"><i class="fal fa-edit fa-2x"></i></a>
+        </div>
+        <div class="navbar-icons">
+          <a
+            class="facebook"
+            href="http://facebook.com/sharer.php?t=Write your notes online &u=http://127.0.0.1:5500/"
+            target="_blank"
+          >
+            <i class="fab fa-facebook-square fa-3x"></i>
+          </a>
+          <a
+            class="twitter"
+            href="http://twitter.com/share?text=Write your notes online &url=http://127.0.0.1:5500/"
+            target="_blank"
+            title="Notepad|| Write your notes online."
+          >
+            <i class="fab fa-twitter fa-3x"></i>
+          </a>
+          <a
+            class="gmail"
+            href="mailto:?subject=I wanted you to see this site&amp;body=Check out this site to write online notepad http://127.0.0.1:5500/"
+            target="_blank"
+          >
+            <i class="far fa-envelope fa-3x"></i>
+          </a>
+          <a
+            class="linkedin"
+            href="https://linkedin.com/shareArticle?mini=true&url=http://127.0.0.1:5500/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin fa-3x"></i>
+          </a>
+        </div>
+      </nav>
+
+      <!-- textarea section -->
+      <section class="section-textarea">
+        <textarea
+          name="notes"
+          id="notepad-textarea"
+          cols="30"
+          rows="21"
+        ></textarea>
+        <p id="result"></p>
+      </section>
+
+      <!-- footer section -->
+      <footer class="section-footer">
+        <div class="footer-details">
+          <p class="words">words : <span class="words-value">0</span></p>
+          <p class="characters">
+            characters : <span class="characters-value">0</span>
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

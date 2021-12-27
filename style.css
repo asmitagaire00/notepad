@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #eceff1;
+}
+
+.navbar {
+  background-color: #eceff1;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.add-note {
+  cursor: pointer;
+}
+
+.navbar-icons > a {
+  text-decoration: none;
+}
+
+.navbar-icons,
+.navbar-add {
+  padding-bottom: 5px;
+}
+
+.navbar-icons > a > i {
+  padding-right: 10px;
+  font-size: 35px;
+}
+
+.facebook {
+  color: rgb(71, 88, 180);
+}
+
+.twitter {
+  color: rgb(71, 190, 236);
+}
+
+.linkedin {
+  color: rgb(71, 88, 180);
+}
+.gmail {
+  color: rgb(112, 9, 9);
+}
+
+.section-textarea {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#notepad-textarea {
+  font-size: 20px;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  outline: none;
+  background: repeating-linear-gradient(white, white 30px, #9198e5 31px);
+  line-height: 31px !important;
+  background-attachment: local;
+  border: none;
+}
+
+.section-footer {
+  width: 100%;
+  position: fixed;
+}
+
+.section-footer > .footer-details {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-footer > .footer-details > p {
+  padding-top: 5px;
+  font-size: 20px;
+  display: inline-block;
+}
